@@ -1,0 +1,35 @@
+html{
+    padding: 0;
+}
+body{
+    padding: 0;
+}
+header{
+    background-color:cornflowerblue;
+    text-align: center;
+}
+.img{
+    text-align: center;
+}
+img{
+    height: 60px;
+    width: 60px;
+    margin-top: 70px;
+}
+.input{
+    text-align: center;
+    padding-top: 50px;
+    height: auto;
+}
+.input input{
+    margin: 2px;
+}
+.button{
+    text-align: center;
+    margin-top: 70px;
+}
+.button button{
+    width: 70px;
+    background-color: cornflowerblue;
+    border-radius: 30px;
+}
