@@ -9,21 +9,10 @@ body{
 header{
     background-color: cornflowerblue;
     text-align: center;
-    margin-bottom: 1px;
-    padding: 0;
 }
 .img img{
     height: 200px;
     width: 100vw;
-}
-.item{
-    display: flex;
-    justify-content: space-around;
-}
-.wrap .btn{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 .footer{
     display: flex;
@@ -54,6 +43,6 @@ header{
     width: 40px;
     margin: 0;
 }
-.footer .btn:nth-child(1) p{
+.footer .btn:nth-child(3) p{
     color: orange;
 }
