@@ -1,0 +1,22 @@
+{
+  "name": "huashan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lstudys/HuaShanHomeWork.git"
+  },
+  "author": "Lstudys <Lstudys@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lstudys/HuaShanHomeWork/issues"
+  },
+  "homepage": "https://github.com/Lstudys/HuaShanHomeWork#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "description": ""
+}

@@ -16,12 +16,28 @@
             <img src="../images/user.png" alt="">
         </div>
         <div class="input">
-            <input type="text" placeholder="用户名"><br/>
-            <input type="password" placeholder="密码">
+            <form action="POST">
+                <input type="text" placeholder="用户名"><br/>
+                <input type="password" placeholder="密码">
+            </form>
         </div>
         <div class="button">
-            <button>登录</button>
+            <button onclick="login()">登录</button>
         </div>
     </div>
+    <script>
+        function login(){
+            let form = document.forms[0];
+            let xhr = new XMLHttpRequest();
+            xhr.open('POST', 'http://106.75.16.42:8082/login');
+            xhr.send(new FormData(form));
+            xhr.onreadystatechange(function(){
+            if (xhr.readyState == 4 && xhr.status == 200){
+                let resopnse = xhr.responseText;
+                // 处理响应信息
+            }
+        })
+        }
+    </script>
 </body>
 </html>

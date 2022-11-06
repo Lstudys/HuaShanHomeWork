@@ -45,5 +45,16 @@
             </div>
         </div>
     </div>
+    <script>
+            let xhr = new XMLHttpRequest();
+            xhr.open('GET', 'http://106.75.16.42:8082/aboutus');
+            xhr.send();
+            xhr.onreadystatechange(function(){
+            if (xhr.readyState == 4 && xhr.status == 200){
+                let resopnse = xhr.responseText;
+                // 处理响应信息
+            }
+        })
+    </script>
 </body>
 </html>
